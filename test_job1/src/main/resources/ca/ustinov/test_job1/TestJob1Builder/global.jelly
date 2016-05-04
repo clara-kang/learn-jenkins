@@ -1,0 +1,9 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!-- global configuration options -->
+  <f:section title="Test Job 1 Builder">
+    <f:entry field="logOutput" title="Log output stream" description="Check if you want to see the output stream of your command">
+      <f:checkbox />
+    </f:entry>
+  </f:section>
+</j:jelly>

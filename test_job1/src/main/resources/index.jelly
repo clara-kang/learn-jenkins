@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+  Simple Jenkins plugin, which is just useless at all.
+</div>
